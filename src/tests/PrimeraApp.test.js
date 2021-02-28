@@ -17,7 +17,7 @@ describe('Pruebas en <PrimeraApp />', () => {
 
     // });
 
-    test('Debe de mostrar <PrimeraAopp /> correctamente', () => {
+    test('Debe de mostrar <PrimeraApp /> correctamente', () => {
         
         const saludo = "Hola soy Francisco";
         const wrapper = shallow(<PrimeraApp saludo = {saludo}/>);
@@ -35,8 +35,8 @@ describe('Pruebas en <PrimeraApp />', () => {
 
         const wrapper = shallow(
             <PrimeraApp 
-            saludo = {saludo}
-            subtitulo = {subtitulo}
+                saludo = {saludo}
+                subtitulo = {subtitulo}
             />
         );
        
