@@ -17,6 +17,6 @@ describe('Pruebas en desestructuración', () => {
         expect(numeros).toBe(123);
         expect(typeof numeros).toBe('number');
 
-    })
+    });
 
 })

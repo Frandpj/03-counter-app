@@ -16,7 +16,7 @@ describe('Pruebas en 05-funciones', () => {
 
         expect( user ).toEqual( userTest );
 
-    })
+    });
 
     // Tarea
     test('getUsuarioActivo debe de retornar un objecto', () => {
@@ -30,7 +30,6 @@ describe('Pruebas en 05-funciones', () => {
             username: nombre
         });
 
-    })
-    
+    });
     
 })

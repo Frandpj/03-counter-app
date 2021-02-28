@@ -12,7 +12,7 @@ describe('Pruebas en funciones de Héroes', () => {
 
         expect(heroe).toEqual(heroeData);
 
-    })
+    });
 
     test('Debe de retornar undefined si el héroe no existe', () => {
         
@@ -21,7 +21,7 @@ describe('Pruebas en funciones de Héroes', () => {
 
         expect(heroe).toBe(undefined);
 
-    })
+    });
 
     // Tarea
     // 1 - Debe de retornar un arreglo con los héroes de DC
@@ -35,7 +35,7 @@ describe('Pruebas en funciones de Héroes', () => {
 
         expect(heroes).toEqual(heroesData);
 
-    })
+    });
 
     // 2 -  Debe de retornar un arreglo con los héroes de Marvel
     // length = 2
@@ -47,7 +47,6 @@ describe('Pruebas en funciones de Héroes', () => {
 
         expect(heroes.length).toBe(2);
 
-    })
+    });
     
-
 })
