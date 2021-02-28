@@ -50,13 +50,24 @@ describe('Pruebas de <CounterApp />', () => {
        
         // 'at' Busca los botones y coge el primero que encuentre
         // 'simulate' Simula un click en el botón
-        const btn2 = wrapper.find('button').at(1).simulate('click');
+        const btn3 = wrapper.find('button').at(2).simulate('click');
         const counterText = wrapper.find('h2').text().trim();
         expect(counterText).toBe('9');
 
     });
     
-    
-    
+    test('Debe de colocar el valor por defecto con el botón Reset', () => {
+       
+        const wrapper = shallow(<CounterApp value = {105} />);
+
+        // 'at' Busca los botones y coge el primero que encuentre
+        // 'simulate' Simula un click en el botón
+        const btn1 = wrapper.find('button').at(0).simulate('click');
+        const btn2 = wrapper.find('button').at(1).simulate('click');
+        const counterText = wrapper.find('h2').text().trim();
+
+        expect(counterText).toBe('105');
+
+    });
 
 });

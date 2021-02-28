@@ -16,12 +16,12 @@ exports[`Pruebas de <CounterApp /> Debe de mostrar <CounterApp /> correctamente 
   <button
     onClick={[Function]}
   >
-    -1
+    Reset
   </button>
   <button
     onClick={[Function]}
   >
-    Reset
+    -1
   </button>
 </Fragment>
 `;
